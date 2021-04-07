@@ -1,6 +1,6 @@
 import cv2
 import os
-from flask import Flask
+from flask import Flask, render_template
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -8,7 +8,23 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return "Hello World!"
+    return render_template('index.html')
+
+@app.route('/kids.html')
+def kds():
+    return render_template('kids.html')
+
+@app.route('/women.html')
+def wmn():
+    return render_template('womenj1.html')
+
+@app.route('/men.html')
+def mn():
+    return render_template('men.html')
+
+@app.route('/')
+def idx():
+    return render_template('index.html')
 
 @app.route('/our code')
 def main_loop():
