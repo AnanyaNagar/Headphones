@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Caps Page</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
@@ -23,14 +22,14 @@
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><b>WOMEN</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="men.html"><b>MEN</b></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="kids.html"><b>KIDS</b></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <b>Category</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Eyeware</a>
+                    <a class="dropdown-item active" href="caps.html">Caps</a>
+                </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -44,7 +43,7 @@
 
         <div class="row text-center heading">
             <div class="col-sm-12">
-                <h1 class="text-center">Kid's Eyeware</h1>
+                <h1 class="text-center">Caps</h1>
             </div>
         </div>
 
@@ -54,7 +53,29 @@
                 <div class="card card-cascade narrower text-center">
                     <!-- Card image -->
                     <div class="view view-cascade">
-                        <img class="card-img-top" src="E:\Myntra\assests\necklace.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="D:\Hack Your Way\Headphones\static\cap1.png" alt="Card image cap">
+                        <a>
+                            <div class="mask img-gradient"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade">
+                        <!-- Label -->
+                        <h5 class="pink-text pb-2 pt-1"><i class="fa fa-cutlery"></i> Zaveri Pearls</h5>
+                        <!-- Text -->
+                        <p class="card-text">Jewellery Set</p></br><b>Rs. 399</b></p>
+                        <!-- Button -->
+                        <a class="btn btn-outline-danger" href="headbow">Try it out!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card card-cascade narrower text-center">
+                    <!-- Card image -->
+                    <div class="view view-cascade">
+                        <img class="card-img-top" src="D:\Hack Your Way\Headphones\static\cap1.png" alt="Card image cap">
                         <a>
                             <div class="mask img-gradient"></div>
                         </a>
@@ -76,29 +97,7 @@
                 <div class="card card-cascade narrower text-center">
                     <!-- Card image -->
                     <div class="view view-cascade">
-                        <img class="card-img-top" src="D:\Hack Your Way\Headphones\static\glasses.png" alt="Card image cap">
-                        <a>
-                            <div class="mask img-gradient"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body card-body-cascade">
-                        <!-- Label -->
-                        <h5 class="pink-text pb-2 pt-1"><i class="fa fa-cutlery"></i> Zaveri Pearls</h5>
-                        <!-- Text -->
-                        <p class="card-text">Jewellery Set</p></br><b>Rs. 399</b></p>
-                        <!-- Button -->
-                        <a class="btn btn-outline-danger" href="kids1.html">Try it out!</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card card-cascade narrower text-center">
-                    <!-- Card image -->
-                    <div class="view view-cascade">
-                        <img class="card-img-top" src="D:\Hack Your Way\Headphones\static\specs.png" alt="Card image cap">
+                        <img class="card-img-top" src="D:\Hack Your Way\Headphones\static\cap1.png" alt="Card image cap">
                         <a>
                             <div class="mask img-gradient"></div>
                         </a>
@@ -118,23 +117,6 @@
 
         </div>
     </div>
-
-    <!-- <div class="container" id="product1">
-        <div class="row text-center">
-            <div class="col-sm-7">
-                <h1>Product</h1>
-                <img src="E:\Myntra\assests\necklace.jpg" alt="product image">
-            </div>
-            <div class="col-sm-5 text-center py-5">
-                <h1>Details</h1>
-                <h4><b>Zaveri Pearls</b></h4>
-                <h6>Traditional Stone Studded & Pearls Jewellery Set</h6>
-                <h4><b>Rs. 399</b></h4>
-                <p>Inclusive of all taxes</p>
-                <a href="#" class="btn btn-danger">Try it out!</a>
-            </div>
-        </div>
-    </div> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
