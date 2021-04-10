@@ -1,0 +1,40 @@
+/* Required for full background image */
+
+html,
+body {
+    height: 100%;
+}
+@media (max-width: 740px) {
+    html,
+    body{
+        height: 100vh;
+    }
+}
+.navbar{
+    background: -webkit-linear-gradient(to right, rgba(255, 62, 108, 0.2), rgba(35, 7, 77, 0.1));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(255, 62, 108, 0.2), rgba(35, 7, 77, 0.1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.container .heading h1, .btn{
+    font-family: 'Playfair Display', serif;
+    color: #FF3E6C;
+}
+.card{
+    border-radius: 1rem;
+    transition: 0.3s ease-in;
+}
+.card:hover{
+    box-shadow: 5px 10px 8px #888888;
+}
+.view img{
+    width: 80%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0;
+}

@@ -31,14 +31,34 @@ def specs():
     apply_goggles(specs.__name__)
     return render_template('index.html')
 
+@app.route('/specs1')
+def specs1():
+    apply_goggles(specs1.__name__)
+    return render_template('index.html')
+
+@app.route('/specs2')
+def specs2():
+    apply_goggles(specs2.__name__)
+    return render_template('index.html')
+
 @app.route('/glass1')
 def glass1():
     apply_goggles(glass1.__name__)
     return render_template('index.html')
 
-@app.route('/blueGlass')
-def blueGlass():
-    apply_goggles(blueGlass.__name__)
+@app.route('/glass2')
+def glass2():
+    apply_goggles(glass2.__name__)
+    return render_template('index.html')
+
+@app.route('/glass3')
+def glass3():
+    apply_goggles(glass3.__name__)
+    return render_template('index.html')
+
+@app.route('/glass4')
+def glass4():
+    apply_goggles(glass4.__name__)
     return render_template('index.html')
 
 @app.route('/orangeGlass')
@@ -63,9 +83,34 @@ def crown():
     apply_cap(crown.__name__)
     return render_template('caps.html')
 
-@app.route('/headbow')
-def headbow():
-    apply_cap(headbow.__name__)
+@app.route('/cap3')
+def cap3():
+    apply_cap(cap3.__name__)
+    return render_template('caps.html')
+
+@app.route('/cap4')
+def cap4():
+    apply_cap(cap4.__name__)
+    return render_template('caps.html')
+
+@app.route('/cap5')
+def cap5():
+    apply_cap(cap5.__name__)
+    return render_template('caps.html')
+
+@app.route('/cap6')
+def cap6():
+    apply_cap(cap6.__name__)
+    return render_template('caps.html')
+
+@app.route('/cap7')
+def cap7():
+    apply_cap(cap7.__name__)
+    return render_template('caps.html')
+
+@app.route('/headband')
+def headband():
+    apply_cap(headband.__name__)
     return render_template('caps.html')
 
 
