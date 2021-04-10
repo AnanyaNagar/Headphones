@@ -194,7 +194,7 @@ def apply_cap(name):
                 for i in range(gh):
                     for j in range(gw):
                         if cap_img[i, j][3] != 0:
-                            frame[y + i - (h // 2), x + j] = cap_img[i, j]
+                            frame[y + i - (h // 2) + 5, x + j] = cap_img[i, j]
 
             frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
         cv2.imshow("dressing room(q-quit, c-click)", frame)
